@@ -4,7 +4,8 @@ import Banner from "./Banner";
 import QuickSearch from "./QuickSearch";
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5500";
+// const BASE_URL = "http://localhost:5500";
+const BASE_URL = "https://food-restaurant-app-alpha.vercel.app/";
 // const BASE_URL = window.env.REACT_APP_BASE_URL;
 // console.log("window.env.REACT_APP_BASE_URL ", window.env.REACT_APP_BASE_URL);
 

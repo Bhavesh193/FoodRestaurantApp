@@ -4,8 +4,9 @@ import Filter from "./Filter";
 import Details from "./Details";
 import Header from "./Header";
 import { useEffect, useState } from "react";
-// const BASE_URL = "https://foodrestaurantapp.onrender.com";
-const BASE_URL = "http://localhost:5500";
+
+const BASE_URL = "https://food-restaurant-app-alpha.vercel.app/";
+// const BASE_URL = "http://localhost:5500";
 // const BASE_URL = window.env.REACT_APP_BASE_URL;
 
 const Router = () => {
