@@ -15,7 +15,8 @@ const authRoute = require("./Controller/auth");
 const passportSetup = require("./Controller/passport");
 
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://food-restaurant-app-client.vercel.app/",
+  // origin: "http://localhost:3000",
   // origin: process.env.REACT_URL,
   methods: "GET,POST,PUT,DELETE, PATCH",
   credentials: true,
