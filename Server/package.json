@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build": "npm app.js",
+    "build": "echo 'No build step required for this backend application'",
     "start": "nodemon app.js"
   },
   "author": "",
