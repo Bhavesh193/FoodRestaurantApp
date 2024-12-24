@@ -6,8 +6,8 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import "../Style/detailPage.css";
 
-// const BASE_URL = "https://food-restaurant-app-alpha.vercel.app/";
-const BASE_URL = "http://localhost:5500";
+const BASE_URL = "https://foodrestaurantapp.onrender.com";
+// const BASE_URL = "http://localhost:5500";
 // const BASE_URL = window.env.REACT_APP_BASE_URL;
 
 const customStyles = {
