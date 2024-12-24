@@ -4,8 +4,8 @@ import queryString from "query-string";
 import navHook from "./nav";
 import "../Style/filterPage.css";
 
-const BASE_URL = "https://food-restaurant-app-alpha.vercel.app/";
-// const BASE_URL = "http://localhost:5500";
+// const BASE_URL = "https://food-restaurant-app-alpha.vercel.app/";
+const BASE_URL = "http://localhost:5500";
 // const BASE_URL = window.env.REACT_APP_BASE_URL;
 
 class Filter extends React.Component {
