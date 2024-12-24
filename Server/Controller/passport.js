@@ -13,8 +13,6 @@ passport.use(
       callbackURL:
         "https://foodrestaurantapp.onrender.com/auth/google/callback",
       // callbackURL: "http://localhost:5500/auth/google/callback",
-      // callbackURL:
-      //   "https://zomato-clone-1-taes.onrender.com/auth/google/callback",
       passReqToCallback: true,
     },
     function (request, accessToken, refreshToken, profile, done) {
