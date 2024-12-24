@@ -10,7 +10,9 @@ passport.use(
     {
       clientID: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-      callbackURL: "http://localhost:5500/auth/google/callback",
+      callbackURL:
+        "https://foodrestaurantapp.onrender.com/auth/google/callback",
+      // callbackURL: "http://localhost:5500/auth/google/callback",
       // callbackURL:
       //   "https://zomato-clone-1-taes.onrender.com/auth/google/callback",
       passReqToCallback: true,

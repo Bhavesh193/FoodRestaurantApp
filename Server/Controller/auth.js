@@ -1,7 +1,8 @@
 const router = require("express").Router();
 const passport = require("passport");
 
-const CLIENT_URL = "http://localhost:3000";
+const CLIENT_URL = "https://foodrestaurantapp-1.onrender.com";
+// const CLIENT_URL = "http://localhost:3000";
 
 router.get("/login/success", (req, res) => {
   if (req.user) {
@@ -22,7 +23,8 @@ router.get("/login/failure", (req, res) => {
 
 router.get("/logout", (req, res) => {
   req.logout();
-  res.redirect("http://localhost:3000");
+  res.redirect("https://foodrestaurantapp-1.onrender.com");
+  // res.redirect("http://localhost:3000");
 });
 
 // This route starts the Google login process.
