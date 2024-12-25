@@ -12,7 +12,7 @@ Setup:
 
 1. Clone the repo:
    ```sh
-   git clone https://github.com/jovan-vukic/filmpire.git
+   git clone https://github.com/Bhavesh193/FoodRestaurantApp.git
    ```
 2. Install NPM packages:
    ```sh
